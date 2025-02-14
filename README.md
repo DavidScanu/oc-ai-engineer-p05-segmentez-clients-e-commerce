@@ -4,7 +4,7 @@
 
 ## 📝 Contexte
 
-Olist est une entreprise brésilienne qui offre une solution de vente sur les marketplaces en ligne. Actuellement, Olist est en pleine phase de construction d'une équipe Data pour améliorer sa prise de décision et optimiser ses campagnes marketing. L'une des premières missions de cette équipe est de réaliser une segmentation des clients à partir des données historiques disponibles. Cette segmentation vise à mieux comprendre les comportements clients pour affiner les stratégies de communication et d’engagement.
+Olist est une entreprise brésilienne qui offre une solution de vente sur les marketplaces en ligne. Actuellement, Olist est en pleine phase de construction d'une équipe Data pour améliorer sa prise de décision et optimiser ses campagnes marketing. L'une des premières missions de cette équipe est de réaliser une **segmentation des clients** à partir des données historiques disponibles. Cette segmentation vise à mieux comprendre les comportements clients pour affiner les stratégies de communication et d’engagement.
 
 Nous sommes **consultant pour Olist** et nous avons été chargé de **réaliser cette segmentation**, en mettant en place des modèles d'**apprentissage non supervisé** et en fournissant un **plan de maintenance** du modèle.
 
@@ -17,20 +17,17 @@ Notre rôle est double :
 
 2. **Segmentation client**
    - Explorer et analyser les données fournies.
-   - Mettre en place une segmentation des clients en utilisant des algorithmes d’apprentissage non supervisé (ex. clustering).
-   - Fournir une analyse approfondie des segments obtenus pour une exploitation optimale par l'équipe Marketing.
-   - Proposer un plan de maintenance basé sur une simulation de fréquence de mise à jour du modèle.
+   - Mettre en place une segmentation des clients en utilisant des **algorithmes d’apprentissage non supervisé** (ex. clustering).
+   - Fournir une **analyse approfondie des segments obtenus** pour une exploitation optimale par l'équipe Marketing.
+   - Proposer un **plan de maintenance** basé sur une simulation de fréquence de mise à jour du modèle.
 
 ## ✔️ TODO
 
-- Corriger erreurs dans `p05-david_scanu_01_sql_pour_dashboard_20250117.md` ✔️
-- Créer l'échantillon d'apprentissage (Segmentation RFM, Score de satisfaction) ✔️
-- Explorer les données ✔️
-- Prétraitement des données ✔️
 - Apprentissage non-supervisé
   - KMeans ✔️
   - DBScan
   - Classification ascendant hiérarchique (CAH)
+- Plan de maintenance dans `p05-david_scanu_04_notebook_simulation_20250117`
 - Ajouter géolocalisation à RFM+S ?
 - Ajouter moyens de paiement ?
 
@@ -49,30 +46,6 @@ Notre rôle est double :
 
 4. **Maintenance des modèles**
    - Élaborer une stratégie pour garantir la pertinence du modèle dans le temps.
-
-
-## 📦 Livrables
-
-1. **Script SQL**
-   - Un fichier contenant toutes les requêtes SQL demandées par Fernanda.
-   - Nom du fichier : `p05-david_scanu_01_sql_for_dashboard_20250117.md`.
-
-2. **Notebook d'analyse exploratoire**
-   - Notebook de création des **données client** "RFM+S" et d’analyse initiale des données.
-   - Nom du fichier : `p05-david_scanu_02_notebook_exploration_20250117`.
-
-3. **Notebook d’essais de modélisation**
-   - Un notebook contenant les tests des différentes approches de modélisation pour le clustering.
-   - Nom du fichier : `p05-david_scanu_03_notebook_essais_20250117`.
-
-4. **Notebook de simulation**
-   - Une simulation pour déterminer la fréquence optimale de mise à jour du modèle de segmentation.
-   - Nom du fichier : `p05-david_scanu_04_notebook_simulation_20250117`.
-
-5. **Présentation**
-   - Un support présentant la démarche, les résultats et les recommandations.
-   - Nom du fichier : `p05-david_scanu_05_presentation_20250117`.
-
 
 ## 🗓️ Plan de travail
 
@@ -100,19 +73,33 @@ Notre rôle est double :
 - Rédiger et commenter les notebooks.
 - Finaliser le script SQL.
 
+## 📦 Livrables
+
+1. **Script SQL**
+   - Un fichier contenant toutes les requêtes SQL demandées par Fernanda.
+   - Nom du fichier : `p05-david_scanu_01_sql_for_dashboard_20250117.md`.
+
+2. **Notebook d'analyse exploratoire**
+   - Notebook de création des **données client (RFM+S)** et d’analyse initiale des données.
+   - Nom du fichier : `p05-david_scanu_02_notebook_exploration_20250117`.
+
+3. **Notebook d’essais de modélisation**
+   - Un notebook contenant les tests des différentes approches de modélisation pour le clustering.
+   - Nom du fichier : `p05-david_scanu_03_notebook_clustering_20250117`.
+
+4. **Notebook de simulation**
+   - Une simulation pour déterminer la fréquence optimale de mise à jour du modèle de segmentation.
+   - Nom du fichier : `p05-david_scanu_04_notebook_simulation_20250117`.
+
+5. **Présentation**
+   - Un support présentant la démarche, les résultats et les recommandations.
+   - Nom du fichier : `p05-david_scanu_05_presentation_20250117`.
 
 ## 🔧 Technologies utilisées
 
 - **Langages :** Python, SQL
 - **Bibliothèques :** pandas, numpy, scikit-learn, matplotlib, seaborn
 - **Outils :** Jupyter Notebook, SQL, Google Sheet
-
-
-## 🏁 Résultats attendus
-
-- Une segmentation des clients claire et actionnable.
-- Un plan de maintenance pour garantir la pérennité du modèle.
-- Des livrables conformes aux attentes d’Olist et préparés pour la soutenance finale.
 
 ## Documentation 
 

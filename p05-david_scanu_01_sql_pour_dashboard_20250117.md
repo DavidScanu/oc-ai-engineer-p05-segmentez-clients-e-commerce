@@ -1,6 +1,8 @@
 # Requêtes SQL pour le dashboard (Customer Experience)
 
-## A propos du jeu de données 
+Travail réalisé sur la base de données SQLite `olist.db` à l'aide de DbVisualizer, un outil de gestion de bases de données. Ce document présente les **requêtes SQL** nécessaires à l'alimentation du dashboard des équipes Customer Experience.
+
+## A propos du jeu de données
 
 ![Dataset Overview](https://i.imgur.com/HRhd2Y0.png)
 
@@ -71,7 +73,7 @@ ORDER BY do.order_purchase_timestamp DESC;
 
 ### Question 2
 
-> Qui sont les vendeurs ayant généré un chiffre d'affaires de plus de 100 000 Real sur des commandes livrées via Olist ?
+> Qui sont les vendeurs ayant généré un chiffre d'affaires de plus de 100 000 réaux sur des commandes livrées via Olist ?
 
 ```sql
 SELECT 
