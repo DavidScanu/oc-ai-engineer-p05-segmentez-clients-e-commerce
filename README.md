@@ -21,16 +21,6 @@ Notre rôle est double :
    - Fournir une **analyse approfondie des segments obtenus** pour une exploitation optimale par l'équipe Marketing.
    - Proposer un **plan de maintenance** basé sur une simulation de fréquence de mise à jour du modèle.
 
-## ✔️ TODO
-
-- Apprentissage non-supervisé
-  - KMeans ✔️
-  - DBScan
-  - Classification ascendant hiérarchique (CAH)
-- Plan de maintenance dans `p05-david_scanu_04_notebook_simulation_20250117`
-- Ajouter géolocalisation à RFM+S ?
-- Ajouter moyens de paiement ?
-
 ## 🎯 Objectifs pédagogiques
 
 1. **Maîtrise des algorithmes d’apprentissage non supervisé**
@@ -67,11 +57,6 @@ Notre rôle est double :
 ### 4. **Simulation et maintenance**
 - Simuler l'évolution des clusters au fil du temps.
 - Proposer une fréquence optimale de mise à jour.
-
-### 5. **Préparation des livrables**
-- Créer le support de présentation.
-- Rédiger et commenter les notebooks.
-- Finaliser le script SQL.
 
 ## 📦 Livrables
 
